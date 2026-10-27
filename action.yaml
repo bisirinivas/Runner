@@ -7,5 +7,5 @@ jobs:
   init:
     runs-on: self-hosted
     steps:
-      - run: echo 'test'
-      - run: echo "$HOSTNAME"
+      - run: echo 'hello cloud gurus'
+      - run: echo $HOSTNAME
